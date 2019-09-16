@@ -77,8 +77,8 @@ namespace SleepData
                         // display date for the current week
                         Console.WriteLine($"Week of {date:MMM}, {date:dd}, {date:yyyy}");
                         // Print out headers for each day of the week
-                        Console.WriteLine($"{"Su.",3}{"Mo.",3}{"Tu.",3}{"We.",3}{"Th.",3}{"Fr.",3}{"Sa.",3}"); 
-                        Console.WriteLine($"{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}"); 
+                        Console.WriteLine($"{"Su.",4}{"Mo.",4}{"Tu.",4}{"We.",4}{"Th.",4}{"Fr.",4}{"Sa.",3}{"Tot",4}{"Avg",4}");
+                        Console.WriteLine($"{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}{"--",3}{"---",4}{"---",4}"); 
                         // Write out hours of sleep for each day
                         Console.WriteLine($"{hours[0],3}{hours[1],3}{hours[2],3}{hours[3],3}{hours[4],3}{hours[5],3}{hours[6],3}"); 
                         Console.WriteLine();
